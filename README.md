@@ -148,3 +148,11 @@ Parse.initializeWithConfiguration(ParseClientConfiguration(block: { (configurati
 }))
 ```
 You can change the server URL in all of the open-source SDKs, but we're releasing new builds which provide initialization time configuration of this property.
+
+
+### My Note
+1. pars dashboard
+$ npm install -g parse-dashboard
+than run powershell as an administrator
+$ set-executionpolicy remotesigned
+$ parse-dashboard --dev --appId app123 --masterKey abc123 --serverURL "https://parse-server-codecraft-1.herokuapp.com/parse" --appName optionalName
